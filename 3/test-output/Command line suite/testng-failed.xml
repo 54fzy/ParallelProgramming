@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="SampleTests">
+        <methods>
+          <include name="shutdown"/>
+          <include name="testConcurrent1"/>
+          <include name="test11a"/>
+          <include name="test9"/>
+          <include name="test8"/>
+          <include name="test7"/>
+          <include name="test6"/>
+          <include name="test10a"/>
+          <include name="test11b"/>
+          <include name="test10c"/>
+          <include name="test10b"/>
+          <include name="test11c"/>
+          <include name="testConcurrent2"/>
+        </methods>
+      </class> <!-- SampleTests -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

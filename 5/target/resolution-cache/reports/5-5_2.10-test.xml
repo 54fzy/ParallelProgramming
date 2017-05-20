@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="5"
+		module="5_2.10"
+		revision="0.1-SNAPSHOT"
+		conf="test"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170413094219"/>
+	<dependencies>
+		<module organisation="edu.unh.cs" name="cs735_835">
+			<revision name="1.2.0" status="release" pubdate="20170326211518" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://cs.unh.edu/~cs735/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<metadata-artifact status="no" details="" size="2534" time="0" location="/home/lydakis-local/.ivy2/cache/edu.unh.cs/cs735_835/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="http://cs.unh.edu/~cs735/lib/edu/unh/cs/cs735_835/1.2.0/cs735_835-1.2.0.pom"/>
+				<caller organisation="5" name="5_2.10" conf="test, compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="cs735_835" type="jar" ext="jar" status="no" details="" size="3371" time="0" location="/home/lydakis-local/.ivy2/cache/edu.unh.cs/cs735_835/jars/cs735_835-1.2.0.jar">
+						<origin-location is-local="false" location="http://cs.unh.edu/~cs735/lib/edu/unh/cs/cs735_835/1.2.0/cs735_835-1.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.testng" name="testng">
+			<revision name="6.11" status="release" pubdate="20170302231457" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://testng.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3513" time="0" location="/home/lydakis-local/.ivy2/cache/org.testng/testng/ivy-6.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/testng/testng/6.11/testng-6.11.pom"/>
+				<caller organisation="edu.unh.cs" name="cs735_835" conf="default, compile, runtime, master" rev="6.11" rev-constraint-default="6.11" rev-constraint-dynamic="6.11" callerrev="1.2.0"/>
+				<artifacts>
+					<artifact name="testng" type="jar" ext="jar" status="no" details="" size="763024" time="0" location="/home/lydakis-local/.ivy2/cache/org.testng/testng/jars/testng-6.11.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/testng/testng/6.11/testng-6.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.yaml" name="snakeyaml">
+			<revision name="1.17" status="release" pubdate="20160219081344" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.snakeyaml.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3956" time="0" location="/home/lydakis-local/.ivy2/cache/org.yaml/snakeyaml/ivy-1.17.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.17/snakeyaml-1.17.pom"/>
+				<caller organisation="org.testng" name="testng" conf="compile, runtime" rev="1.17" rev-constraint-default="1.17" rev-constraint-dynamic="1.17" callerrev="6.11"/>
+				<artifacts>
+					<artifact name="snakeyaml" type="bundle" ext="jar" status="no" details="" size="273599" time="0" location="/home/lydakis-local/.ivy2/cache/org.yaml/snakeyaml/bundles/snakeyaml-1.17.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.beust" name="jcommander">
+			<revision name="1.64" status="release" pubdate="20170303183014" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jcommander.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2599" time="0" location="/home/lydakis-local/.ivy2/cache/com.beust/jcommander/ivy-1.64.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/beust/jcommander/1.64/jcommander-1.64.pom"/>
+				<caller organisation="org.testng" name="testng" conf="compile, runtime" rev="1.64" rev-constraint-default="1.64" rev-constraint-dynamic="1.64" callerrev="6.11"/>
+				<artifacts>
+					<artifact name="jcommander" type="jar" ext="jar" status="no" details="" size="65585" time="0" location="/home/lydakis-local/.ivy2/cache/com.beust/jcommander/jars/jcommander-1.64.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/beust/jcommander/1.64/jcommander-1.64.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

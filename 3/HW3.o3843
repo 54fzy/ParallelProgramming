@@ -1,0 +1,610 @@
+[info] Set current project to 3 (in build file:/home/ccluster/cs735/assigns/al1076/SVN/3/)
+[info] Running grading.Grade 
+[info] PASSED: test01
+[info]         message properly initialized
+[info] PASSED: test02
+[info]         tracking set and get
+[info] PASSED: test03
+[info]         send and receive, single thread [3pts]
+[info] PASSED: test04
+[info]         toString
+[info] PASSED: test05
+[info]         exception (constructor)
+[info] PASSED: test06
+[info]         exception (receive without send)
+[info] PASSED: test07
+[info]         exception (illegal send)
+[info] PASSED: test08
+[info]         exception (illegal receive)
+[info] PASSED: test09
+[info]         exception (double send)
+[info] PASSED: test10
+[info]         exception (double receive)
+[info] PASSED: test11
+[info]         exception (receive before send)
+[info] PASSED: test12b(10, 1000)
+[info]         thread-safety of send
+[info] PASSED: test12b(10, 100000)
+[info]         thread-safety of send
+[info] PASSED: test12b(100, 1000)
+[info]         thread-safety of send
+[info] PASSED: test12b(100, 100000)
+[info]         thread-safety of send
+[info] PASSED: test12b(250, 1000)
+[info]         thread-safety of send
+[info] PASSED: test12b(250, 10000)
+[info]         thread-safety of send
+[info] PASSED: test12c(10, 1000)
+[info]         thread-safety of receive
+[info] PASSED: test12c(10, 100000)
+[info]         thread-safety of receive
+[info] PASSED: test12c(100, 1000)
+[info]         thread-safety of receive
+[info] PASSED: test12c(100, 100000)
+[info]         thread-safety of receive
+[info] PASSED: test12c(250, 1000)
+[info]         thread-safety of receive
+[info] PASSED: test12c(250, 10000)
+[info]         thread-safety of receive
+[info] PASSED: test13a
+[info]         parsing (correct)
+[info] PASSED: test13b
+[info]         parsing (whitespace)
+[info] 
+[info] ===============================================
+[info]     grading.MessageSuite
+[info]     Tests run: 25, Failures: 0, Skips: 0
+[info] ===============================================
+[info] 
+[info] 
+[info] ===============================================
+[info] grading.MessageSuite
+[info] Total tests run: 25, Failures: 0, Skips: 0
+[info] ===============================================
+[info] 
+[info] PASSED: test1a(1)
+[info]         simple core processing
+[info] PASSED: test1a(42)
+[info]         simple core processing
+[info] PASSED: test1a(2016)
+[info]         simple core processing
+[info] PASSED: test1b(1)
+[info]         simple core processing
+[info] PASSED: test1b(42)
+[info]         simple core processing
+[info] PASSED: test1b(2016)
+[info]         simple core processing
+[info] PASSED: test2(1, 5)
+[info]         simple core processing
+[info] PASSED: test2(42, 43)
+[info]         simple core processing
+[info] PASSED: test2(2016, 6102)
+[info]         simple core processing
+[info] PASSED: test3
+[info]         transfer between neighboring cores [3pts]
+[info] PASSED: test4
+[info]         running an empty network
+[info] PASSED: test5
+[info]         message scheduled in the past is sent immediately [2pts]
+[info] FAILED: test6
+[info]         core sends message to itself [2pts]
+[info] java.lang.AssertionError: expected [1] but found [0]
+[info] 	at grading.NetworkSuite.test6(NetworkSuite.java:283)
+[info] 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[info] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[info] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+[info] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+[info] 	at java.lang.Thread.run(Thread.java:745)
+[info] ... Removed 13 stack frames
+[info] 
+[info] ===============================================
+[info]     grading.NetworkSuite
+[info]     Tests run: 13, Failures: 1, Skips: 0
+[info] ===============================================
+[info] 
+[info] 
+[info] ===============================================
+[info] grading.NetworkSuite
+[info] Total tests run: 13, Failures: 1, Skips: 0
+[info] ===============================================
+[info] 
+[info] PASSED: test1a(1)
+[info]         4x4 network with 1 message
+[info] PASSED: test1a(42)
+[info]         4x4 network with 1 message
+[info] PASSED: test1a(2017)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(1)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(42)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(2017)
+[info]         4x4 network with 1 message
+[info] PASSED: test2(10, 10, 100)
+[info]         various network sizes with 1 random message
+[info] PASSED: test2(13, 17, 100)
+[info]         various network sizes with 1 random message
+[info] PASSED: test2(12, 34, 5)
+[info]         various network sizes with 1 random message
+[info] PASSED: test3("10-10-1-10")
+[info]         complete simulation
+[info] PASSED: test3("10-10-1-100")
+[info]         complete simulation
+[info] PASSED: test3("10-10-3-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-1-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-3-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-5-1000")
+[info]         complete simulation
+[info] 
+[info] ===============================================
+[info]     grading.SeqSimulatorSuite
+[info]     Tests run: 15, Failures: 0, Skips: 0
+[info] ===============================================
+[info] 
+[info] 
+[info] ===============================================
+[info] grading.SeqSimulatorSuite
+[info] Total tests run: 15, Failures: 0, Skips: 0
+[info] ===============================================
+[info] 
+[info] PASSED: testConcurrent
+[info]         checks that routing steps are done in parallel when possible [3pts]
+[info] PASSED: testConcurrent
+[info]         checks that routing steps are done in parallel when possible [3pts]
+[info] PASSED: testConcurrent
+[info]         checks that routing steps are done in parallel when possible [3pts]
+[info] PASSED: testConcurrent
+[info]         checks that routing steps are done in parallel when possible [3pts]
+[info] PASSED: test1a(1)
+[info]         4x4 network with 1 message
+[info] PASSED: test1a(42)
+[info]         4x4 network with 1 message
+[info] PASSED: test1a(2017)
+[info]         4x4 network with 1 message
+[info] PASSED: test1a(1)
+[info]         4x4 network with 1 message
+[info] PASSED: test1a(42)
+[info]         4x4 network with 1 message
+[info] PASSED: test1a(2017)
+[info]         4x4 network with 1 message
+[info] PASSED: test1a(1)
+[info]         4x4 network with 1 message
+[info] PASSED: test1a(42)
+[info]         4x4 network with 1 message
+[info] PASSED: test1a(2017)
+[info]         4x4 network with 1 message
+[info] PASSED: test1a(1)
+[info]         4x4 network with 1 message
+[info] PASSED: test1a(42)
+[info]         4x4 network with 1 message
+[info] PASSED: test1a(2017)
+[info]         4x4 network with 1 message
+[info] PASSED: test1a(1)
+[info]         4x4 network with 1 message
+[info] PASSED: test1a(42)
+[info]         4x4 network with 1 message
+[info] PASSED: test1a(2017)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(1)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(42)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(2017)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(1)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(42)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(2017)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(1)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(42)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(2017)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(1)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(42)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(2017)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(1)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(42)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(2017)
+[info]         4x4 network with 1 message
+[info] PASSED: test2(10, 10, 100)
+[info]         various network sizes with 1 random message
+[info] PASSED: test2(13, 17, 100)
+[info]         various network sizes with 1 random message
+[info] PASSED: test2(12, 34, 5)
+[info]         various network sizes with 1 random message
+[info] PASSED: test2(10, 10, 100)
+[info]         various network sizes with 1 random message
+[info] PASSED: test2(13, 17, 100)
+[info]         various network sizes with 1 random message
+[info] PASSED: test2(12, 34, 5)
+[info]         various network sizes with 1 random message
+[info] PASSED: test2(10, 10, 100)
+[info]         various network sizes with 1 random message
+[info] PASSED: test2(13, 17, 100)
+[info]         various network sizes with 1 random message
+[info] PASSED: test2(12, 34, 5)
+[info]         various network sizes with 1 random message
+[info] PASSED: test2(10, 10, 100)
+[info]         various network sizes with 1 random message
+[info] PASSED: test2(13, 17, 100)
+[info]         various network sizes with 1 random message
+[info] PASSED: test2(12, 34, 5)
+[info]         various network sizes with 1 random message
+[info] PASSED: test2(10, 10, 100)
+[info]         various network sizes with 1 random message
+[info] PASSED: test2(13, 17, 100)
+[info]         various network sizes with 1 random message
+[info] PASSED: test2(12, 34, 5)
+[info]         various network sizes with 1 random message
+[info] PASSED: test3("10-10-1-10")
+[info]         complete simulation
+[info] PASSED: test3("10-10-1-100")
+[info]         complete simulation
+[info] PASSED: test3("10-10-3-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-1-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-3-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-5-1000")
+[info]         complete simulation
+[info] PASSED: test3("10-10-1-10")
+[info]         complete simulation
+[info] PASSED: test3("10-10-1-100")
+[info]         complete simulation
+[info] PASSED: test3("10-10-3-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-1-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-3-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-5-1000")
+[info]         complete simulation
+[info] PASSED: test3("10-10-1-10")
+[info]         complete simulation
+[info] PASSED: test3("10-10-1-100")
+[info]         complete simulation
+[info] PASSED: test3("10-10-3-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-1-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-3-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-5-1000")
+[info]         complete simulation
+[info] PASSED: test3("10-10-1-10")
+[info]         complete simulation
+[info] PASSED: test3("10-10-1-100")
+[info]         complete simulation
+[info] PASSED: test3("10-10-3-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-1-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-3-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-5-1000")
+[info]         complete simulation
+[info] PASSED: test3("10-10-1-10")
+[info]         complete simulation
+[info] PASSED: test3("10-10-1-100")
+[info]         complete simulation
+[info] PASSED: test3("10-10-3-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-1-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-3-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-5-1000")
+[info]         complete simulation
+[info] SKIPPED: testConcurrent
+[info]          checks that routing steps are done in parallel when possible [3pts]
+[info] org.testng.SkipException: simulator is sequential
+[info] 	at grading.ConcurrentSimulatorSuite.testConcurrent(ConcurrentSimulatorSuite.java:23)
+[info] 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[info] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[info] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+[info] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+[info] 	at java.lang.Thread.run(Thread.java:745)
+[info] ... Removed 7 stack frames
+[info] 
+[info] ===============================================
+[info]     grading.NaiveExecSimulatorSuite
+[info]     Tests run: 80, Failures: 0, Skips: 1
+[info] ===============================================
+[info] 
+[info] 
+[info] ===============================================
+[info] grading.NaiveExecSimulatorSuite
+[info] Total tests run: 80, Failures: 0, Skips: 1
+[info] ===============================================
+[info] 
+[info] PASSED: testConcurrent
+[info]         checks that routing steps are done in parallel when possible [3pts]
+[info] PASSED: testConcurrent
+[info]         checks that routing steps are done in parallel when possible [3pts]
+[info] PASSED: testConcurrent
+[info]         checks that routing steps are done in parallel when possible [3pts]
+[info] PASSED: testConcurrent
+[info]         checks that routing steps are done in parallel when possible [3pts]
+[info] PASSED: testConcurrent
+[info]         checks that routing steps are done in parallel when possible [3pts]
+[info] PASSED: testConcurrent
+[info]         checks that routing steps are done in parallel when possible [3pts]
+[info] PASSED: testConcurrent
+[info]         checks that routing steps are done in parallel when possible [3pts]
+[info] PASSED: test1a(1)
+[info]         4x4 network with 1 message
+[info] PASSED: test1a(42)
+[info]         4x4 network with 1 message
+[info] PASSED: test1a(2017)
+[info]         4x4 network with 1 message
+[info] PASSED: test1a(1)
+[info]         4x4 network with 1 message
+[info] PASSED: test1a(42)
+[info]         4x4 network with 1 message
+[info] PASSED: test1a(2017)
+[info]         4x4 network with 1 message
+[info] PASSED: test1a(1)
+[info]         4x4 network with 1 message
+[info] PASSED: test1a(42)
+[info]         4x4 network with 1 message
+[info] PASSED: test1a(2017)
+[info]         4x4 network with 1 message
+[info] PASSED: test1a(1)
+[info]         4x4 network with 1 message
+[info] PASSED: test1a(42)
+[info]         4x4 network with 1 message
+[info] PASSED: test1a(2017)
+[info]         4x4 network with 1 message
+[info] PASSED: test1a(1)
+[info]         4x4 network with 1 message
+[info] PASSED: test1a(42)
+[info]         4x4 network with 1 message
+[info] PASSED: test1a(2017)
+[info]         4x4 network with 1 message
+[info] PASSED: test1a(1)
+[info]         4x4 network with 1 message
+[info] PASSED: test1a(42)
+[info]         4x4 network with 1 message
+[info] PASSED: test1a(2017)
+[info]         4x4 network with 1 message
+[info] PASSED: test1a(1)
+[info]         4x4 network with 1 message
+[info] PASSED: test1a(42)
+[info]         4x4 network with 1 message
+[info] PASSED: test1a(2017)
+[info]         4x4 network with 1 message
+[info] PASSED: test1a(1)
+[info]         4x4 network with 1 message
+[info] PASSED: test1a(42)
+[info]         4x4 network with 1 message
+[info] PASSED: test1a(2017)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(1)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(42)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(2017)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(1)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(42)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(2017)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(1)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(42)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(2017)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(1)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(42)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(2017)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(1)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(42)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(2017)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(1)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(42)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(2017)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(1)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(42)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(2017)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(1)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(42)
+[info]         4x4 network with 1 message
+[info] PASSED: test1b(2017)
+[info]         4x4 network with 1 message
+[info] PASSED: test2(10, 10, 100)
+[info]         various network sizes with 1 random message
+[info] PASSED: test2(13, 17, 100)
+[info]         various network sizes with 1 random message
+[info] PASSED: test2(12, 34, 5)
+[info]         various network sizes with 1 random message
+[info] PASSED: test2(10, 10, 100)
+[info]         various network sizes with 1 random message
+[info] PASSED: test2(13, 17, 100)
+[info]         various network sizes with 1 random message
+[info] PASSED: test2(12, 34, 5)
+[info]         various network sizes with 1 random message
+[info] PASSED: test2(10, 10, 100)
+[info]         various network sizes with 1 random message
+[info] PASSED: test2(13, 17, 100)
+[info]         various network sizes with 1 random message
+[info] PASSED: test2(12, 34, 5)
+[info]         various network sizes with 1 random message
+[info] PASSED: test2(10, 10, 100)
+[info]         various network sizes with 1 random message
+[info] PASSED: test2(13, 17, 100)
+[info]         various network sizes with 1 random message
+[info] PASSED: test2(12, 34, 5)
+[info]         various network sizes with 1 random message
+[info] PASSED: test2(10, 10, 100)
+[info]         various network sizes with 1 random message
+[info] PASSED: test2(13, 17, 100)
+[info]         various network sizes with 1 random message
+[info] PASSED: test2(12, 34, 5)
+[info]         various network sizes with 1 random message
+[info] PASSED: test2(10, 10, 100)
+[info]         various network sizes with 1 random message
+[info] PASSED: test2(13, 17, 100)
+[info]         various network sizes with 1 random message
+[info] PASSED: test2(12, 34, 5)
+[info]         various network sizes with 1 random message
+[info] PASSED: test2(10, 10, 100)
+[info]         various network sizes with 1 random message
+[info] PASSED: test2(13, 17, 100)
+[info]         various network sizes with 1 random message
+[info] PASSED: test2(12, 34, 5)
+[info]         various network sizes with 1 random message
+[info] PASSED: test2(10, 10, 100)
+[info]         various network sizes with 1 random message
+[info] PASSED: test2(13, 17, 100)
+[info]         various network sizes with 1 random message
+[info] PASSED: test2(12, 34, 5)
+[info]         various network sizes with 1 random message
+[info] PASSED: test3("10-10-1-10")
+[info]         complete simulation
+[info] PASSED: test3("10-10-1-100")
+[info]         complete simulation
+[info] PASSED: test3("10-10-3-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-1-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-3-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-5-1000")
+[info]         complete simulation
+[info] PASSED: test3("10-10-1-10")
+[info]         complete simulation
+[info] PASSED: test3("10-10-1-100")
+[info]         complete simulation
+[info] PASSED: test3("10-10-3-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-1-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-3-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-5-1000")
+[info]         complete simulation
+[info] PASSED: test3("10-10-1-10")
+[info]         complete simulation
+[info] PASSED: test3("10-10-1-100")
+[info]         complete simulation
+[info] PASSED: test3("10-10-3-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-1-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-3-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-5-1000")
+[info]         complete simulation
+[info] PASSED: test3("10-10-1-10")
+[info]         complete simulation
+[info] PASSED: test3("10-10-1-100")
+[info]         complete simulation
+[info] PASSED: test3("10-10-3-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-1-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-3-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-5-1000")
+[info]         complete simulation
+[info] PASSED: test3("10-10-1-10")
+[info]         complete simulation
+[info] PASSED: test3("10-10-1-100")
+[info]         complete simulation
+[info] PASSED: test3("10-10-3-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-1-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-3-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-5-1000")
+[info]         complete simulation
+[info] PASSED: test3("10-10-1-10")
+[info]         complete simulation
+[info] PASSED: test3("10-10-1-100")
+[info]         complete simulation
+[info] PASSED: test3("10-10-3-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-1-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-3-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-5-1000")
+[info]         complete simulation
+[info] PASSED: test3("10-10-1-10")
+[info]         complete simulation
+[info] PASSED: test3("10-10-1-100")
+[info]         complete simulation
+[info] PASSED: test3("10-10-3-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-1-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-3-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-5-1000")
+[info]         complete simulation
+[info] PASSED: test3("10-10-1-10")
+[info]         complete simulation
+[info] PASSED: test3("10-10-1-100")
+[info]         complete simulation
+[info] PASSED: test3("10-10-3-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-1-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-3-1000")
+[info]         complete simulation
+[info] PASSED: test3("50-100-5-1000")
+[info]         complete simulation
+[info] SKIPPED: testConcurrent
+[info]          checks that routing steps are done in parallel when possible [3pts]
+[info] org.testng.SkipException: simulator is sequential
+[info] 	at grading.ConcurrentSimulatorSuite.testConcurrent(ConcurrentSimulatorSuite.java:23)
+[info] 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[info] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[info] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+[info] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+[info] 	at java.lang.Thread.run(Thread.java:745)
+[info] ... Removed 7 stack frames
+[info] 
+[info] ===============================================
+[info]     grading.ExecSimulatorSuite
+[info]     Tests run: 128, Failures: 0, Skips: 1
+[info] ===============================================
+[info] 
+[info] 
+[info] ===============================================
+[info] grading.ExecSimulatorSuite
+[info] Total tests run: 128, Failures: 0, Skips: 1
+[info] ===============================================
+[info] 
+[info] Grade: 68 / 70
+[success] Total time: 122 s, completed Mar 27, 2017 2:34:23 PM

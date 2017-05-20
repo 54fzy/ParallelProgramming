@@ -1,0 +1,438 @@
+[debug] :: resolving dependencies :: 3#3$sources_2.10;0.1-SNAPSHOT
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for 3#3$sources_2.10;0.1-SNAPSHOT [compile]
+[debug] resolving dependencies for configuration 'runtime'
+[debug] == resolving dependencies for 3#3$sources_2.10;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for 3#3$sources_2.10;0.1-SNAPSHOT [compile]
+[debug] resolving dependencies for configuration 'test'
+[debug] == resolving dependencies for 3#3$sources_2.10;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for 3#3$sources_2.10;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for 3#3$sources_2.10;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->com.beust#jcommander;1.64 [test->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[info] Resolving com.beust#jcommander;1.64 ...
+[debug] sbt-chain: Checking cache for: dependency: com.beust#jcommander;1.64 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: com.beust#jcommander;1.64
+[debug] 	found com.beust#jcommander;1.64 in sbt-chain
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->com.beust#jcommander;1.64 [test->runtime(*)]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->com.beust#jcommander;1.64 [test->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->com.beust#jcommander;1.64 [test->master(compile)]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->com.beust#jcommander;1.64 [test->runtime]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->com.beust#jcommander;1.64 [test->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->com.beust#jcommander;1.64 [test->compile(*)]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->com.beust#jcommander;1.64 [test->master]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->edu.unh.cs#cs735_835;1.2.0 [test->default]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[info] Resolving edu.unh.cs#cs735_835;1.2.0 ...
+[debug] sbt-chain: Checking cache for: dependency: edu.unh.cs#cs735_835;1.2.0 {test=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: edu.unh.cs#cs735_835;1.2.0
+[debug] 	found edu.unh.cs#cs735_835;1.2.0 in sbt-chain
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->edu.unh.cs#cs735_835;1.2.0 [test->runtime]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->edu.unh.cs#cs735_835;1.2.0 [test->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->edu.unh.cs#cs735_835;1.2.0 [test->master]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->edu.unh.cs#cs735_835;1.2.0 [test->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->edu.unh.cs#cs735_835;1.2.0 [test->runtime]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->edu.unh.cs#cs735_835;1.2.0 [test->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->edu.unh.cs#cs735_835;1.2.0 [test->default(compile)]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->edu.unh.cs#cs735_835;1.2.0 [test->runtime]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->edu.unh.cs#cs735_835;1.2.0 [test->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->edu.unh.cs#cs735_835;1.2.0 [test->master]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->edu.unh.cs#cs735_835;1.2.0 [test->master]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.testng#testng;6.11 [test->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[info] Resolving org.testng#testng;6.11 ...
+[debug] sbt-chain: Checking cache for: dependency: org.testng#testng;6.11 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.testng#testng;6.11
+[debug] 	found org.testng#testng;6.11 in sbt-chain
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.testng#testng;6.11 [test->runtime(*)]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.testng#testng;6.11 [test->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.testng#testng;6.11 [test->master(compile)]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.testng#testng;6.11 [test->runtime]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.testng#testng;6.11 [test->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.testng#testng;6.11 [test->compile(*)]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.testng#testng;6.11 [test->master]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.yaml#snakeyaml;1.17 [test->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[info] Resolving org.yaml#snakeyaml;1.17 ...
+[debug] sbt-chain: Checking cache for: dependency: org.yaml#snakeyaml;1.17 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.yaml#snakeyaml;1.17
+[debug] 	found org.yaml#snakeyaml;1.17 in sbt-chain
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.yaml#snakeyaml;1.17 [test->runtime(*)]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.yaml#snakeyaml;1.17 [test->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.yaml#snakeyaml;1.17 [test->master(compile)]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.yaml#snakeyaml;1.17 [test->runtime]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.yaml#snakeyaml;1.17 [test->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.yaml#snakeyaml;1.17 [test->compile(*)]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.yaml#snakeyaml;1.17 [test->master]
+[debug] resolving dependencies for configuration 'provided'
+[debug] == resolving dependencies for 3#3$sources_2.10;0.1-SNAPSHOT [provided]
+[debug] resolving dependencies for configuration 'optional'
+[debug] == resolving dependencies for 3#3$sources_2.10;0.1-SNAPSHOT [optional]
+[debug] resolving dependencies for configuration 'compile-internal'
+[debug] == resolving dependencies for 3#3$sources_2.10;0.1-SNAPSHOT [compile-internal]
+[debug] == resolving dependencies for 3#3$sources_2.10;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for 3#3$sources_2.10;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for 3#3$sources_2.10;0.1-SNAPSHOT [provided]
+[debug] resolving dependencies for configuration 'runtime-internal'
+[debug] == resolving dependencies for 3#3$sources_2.10;0.1-SNAPSHOT [runtime-internal]
+[debug] == resolving dependencies for 3#3$sources_2.10;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for 3#3$sources_2.10;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for 3#3$sources_2.10;0.1-SNAPSHOT [optional]
+[debug] resolving dependencies for configuration 'test-internal'
+[debug] == resolving dependencies for 3#3$sources_2.10;0.1-SNAPSHOT [test-internal]
+[debug] == resolving dependencies for 3#3$sources_2.10;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for 3#3$sources_2.10;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for 3#3$sources_2.10;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->com.beust#jcommander;1.64 [test->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->com.beust#jcommander;1.64 [test->runtime(*)]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->com.beust#jcommander;1.64 [test->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->com.beust#jcommander;1.64 [test->master(compile)]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->com.beust#jcommander;1.64 [test->runtime]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->com.beust#jcommander;1.64 [test->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->com.beust#jcommander;1.64 [test->compile(*)]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->com.beust#jcommander;1.64 [test->master]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->edu.unh.cs#cs735_835;1.2.0 [test->default]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->edu.unh.cs#cs735_835;1.2.0 [test->runtime]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->edu.unh.cs#cs735_835;1.2.0 [test->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->edu.unh.cs#cs735_835;1.2.0 [test->master]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->edu.unh.cs#cs735_835;1.2.0 [test->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->edu.unh.cs#cs735_835;1.2.0 [test->runtime]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->edu.unh.cs#cs735_835;1.2.0 [test->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->edu.unh.cs#cs735_835;1.2.0 [test->default(compile)]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->edu.unh.cs#cs735_835;1.2.0 [test->runtime]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->edu.unh.cs#cs735_835;1.2.0 [test->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->edu.unh.cs#cs735_835;1.2.0 [test->master]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->edu.unh.cs#cs735_835;1.2.0 [test->master]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.testng#testng;6.11 [test->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.testng#testng;6.11 [test->runtime(*)]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.testng#testng;6.11 [test->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.testng#testng;6.11 [test->master(compile)]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.testng#testng;6.11 [test->runtime]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.testng#testng;6.11 [test->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.testng#testng;6.11 [test->compile(*)]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.testng#testng;6.11 [test->master]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.yaml#snakeyaml;1.17 [test->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.yaml#snakeyaml;1.17 [test->runtime(*)]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.yaml#snakeyaml;1.17 [test->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.yaml#snakeyaml;1.17 [test->master(compile)]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.yaml#snakeyaml;1.17 [test->runtime]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.yaml#snakeyaml;1.17 [test->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.yaml#snakeyaml;1.17 [test->compile(*)]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.yaml#snakeyaml;1.17 [test->master]
+[debug] == resolving dependencies for 3#3$sources_2.10;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for 3#3$sources_2.10;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->com.beust#jcommander;1.64 [test-internal->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->com.beust#jcommander;1.64 [test-internal->runtime(*)]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->com.beust#jcommander;1.64 [test-internal->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->com.beust#jcommander;1.64 [test-internal->master(compile)]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->com.beust#jcommander;1.64 [test-internal->runtime]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->com.beust#jcommander;1.64 [test-internal->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->com.beust#jcommander;1.64 [test-internal->compile(*)]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->com.beust#jcommander;1.64 [test-internal->master]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->edu.unh.cs#cs735_835;1.2.0 [test-internal->default]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->edu.unh.cs#cs735_835;1.2.0 [test-internal->runtime]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->edu.unh.cs#cs735_835;1.2.0 [test-internal->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->edu.unh.cs#cs735_835;1.2.0 [test-internal->master]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->edu.unh.cs#cs735_835;1.2.0 [test-internal->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->edu.unh.cs#cs735_835;1.2.0 [test-internal->runtime]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->edu.unh.cs#cs735_835;1.2.0 [test-internal->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->edu.unh.cs#cs735_835;1.2.0 [test-internal->default(compile)]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->edu.unh.cs#cs735_835;1.2.0 [test-internal->runtime]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->edu.unh.cs#cs735_835;1.2.0 [test-internal->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->edu.unh.cs#cs735_835;1.2.0 [test-internal->master]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->edu.unh.cs#cs735_835;1.2.0 [test-internal->master]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.testng#testng;6.11 [test-internal->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.testng#testng;6.11 [test-internal->runtime(*)]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.testng#testng;6.11 [test-internal->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.testng#testng;6.11 [test-internal->master(compile)]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.testng#testng;6.11 [test-internal->runtime]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.testng#testng;6.11 [test-internal->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.testng#testng;6.11 [test-internal->compile(*)]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.testng#testng;6.11 [test-internal->master]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.yaml#snakeyaml;1.17 [test-internal->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.yaml#snakeyaml;1.17 [test-internal->runtime(*)]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.yaml#snakeyaml;1.17 [test-internal->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.yaml#snakeyaml;1.17 [test-internal->master(compile)]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.yaml#snakeyaml;1.17 [test-internal->runtime]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.yaml#snakeyaml;1.17 [test-internal->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.yaml#snakeyaml;1.17 [test-internal->compile(*)]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.yaml#snakeyaml;1.17 [test-internal->master]
+[debug] resolving dependencies for configuration 'plugin'
+[debug] == resolving dependencies for 3#3$sources_2.10;0.1-SNAPSHOT [plugin]
+[debug] resolving dependencies for configuration 'sources'
+[debug] == resolving dependencies for 3#3$sources_2.10;0.1-SNAPSHOT [sources]
+[debug] resolving dependencies for configuration 'docs'
+[debug] == resolving dependencies for 3#3$sources_2.10;0.1-SNAPSHOT [docs]
+[debug] resolving dependencies for configuration 'pom'
+[debug] == resolving dependencies for 3#3$sources_2.10;0.1-SNAPSHOT [pom]
+[debug] resolving dependencies for configuration 'scala-tool'
+[debug] == resolving dependencies for 3#3$sources_2.10;0.1-SNAPSHOT [scala-tool]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.scala-lang#jline;2.10.6 [scala-tool->master(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[info] Resolving org.scala-lang#jline;2.10.6 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#jline;2.10.6
+[debug] 	found org.scala-lang#jline;2.10.6 in sbt-chain
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.scala-lang#jline;2.10.6 [scala-tool->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.scala-lang#jline;2.10.6 [scala-tool->compile(*)]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.scala-lang#jline;2.10.6 [scala-tool->master]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.10.6 [scala-tool->master(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[info] Resolving org.scala-lang#scala-reflect;2.10.6 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.6
+[debug] 	found org.scala-lang#scala-reflect;2.10.6 in sbt-chain
+[debug] 	[2.10.6] org.scala-lang#scala-reflect;2.10.6
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.10.6 [scala-tool->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.10.6 [scala-tool->runtime(*)]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.10.6 [scala-tool->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.10.6 [scala-tool->runtime]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.10.6 [scala-tool->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.10.6 [scala-tool->compile(*)]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.10.6 [scala-tool->master]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.fusesource.jansi#jansi;1.4 [scala-tool->master(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[info] Resolving org.fusesource.jansi#jansi;1.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4
+[debug] 	found org.fusesource.jansi#jansi;1.4 in sbt-chain
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.fusesource.jansi#jansi;1.4 [scala-tool->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.fusesource.jansi#jansi;1.4 [scala-tool->compile(*)]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.fusesource.jansi#jansi;1.4 [scala-tool->master]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->default]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[info] Resolving org.scala-lang#scala-library;2.10.6 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.6
+[debug] 	found org.scala-lang#scala-library;2.10.6 in sbt-chain
+[debug] 	[2.10.6] org.scala-lang#scala-library;2.10.6
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->runtime]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->master]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->master(*)]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->runtime(*)]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->runtime]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->optional]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->optional(default)]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->compile(*)]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->master]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->default]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]} => dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[info] Resolving org.scala-lang#scala-compiler;2.10.6 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.6
+[debug] 	found org.scala-lang#scala-compiler;2.10.6 in sbt-chain
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->runtime]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->master]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->runtime]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->compile]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->optional]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->optional(default)]
+[debug] == resolving dependencies 3#3$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->master]
+[debug] ignoring unhandled DependencyDescriptorMediator: class sbt.IvyScala$OverrideScalaMediator
+[debug] 	resolved ivy file produced in cache
+[debug] :: downloading artifacts ::
+[debug] 	[NOT REQUIRED] com.beust#jcommander;1.64!jcommander.jar(src)
+[debug] 		tried /home/lydakis-local/.ivy2/local/edu.unh.cs/cs735_835/1.2.0/srcs/cs735_835-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/edu/unh/cs/cs735_835/1.2.0/cs735_835-1.2.0-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/edu/unh/cs/cs735_835/1.2.0/cs735_835-1.2.0-sources.jar
+[debug] 		tried http://cs.unh.edu/~cs735/lib/edu/unh/cs/cs735_835/1.2.0/cs735_835-1.2.0-sources.jar
+[debug] CLIENT ERROR: Not Found url=http://cs.unh.edu/~cs735/lib/edu/unh/cs/cs735_835/1.2.0/cs735_835-1.2.0-sources.jar
+[warn] 	[FAILED     ] edu.unh.cs#cs735_835;1.2.0!cs735_835.jar(src):  (0ms)
+[warn] ==== local: tried
+[warn]   /home/lydakis-local/.ivy2/local/edu.unh.cs/cs735_835/1.2.0/srcs/cs735_835-sources.jar
+[warn] ==== public: tried
+[warn]   https://repo1.maven.org/maven2/edu/unh/cs/cs735_835/1.2.0/cs735_835-1.2.0-sources.jar
+[warn] ==== CS735/835 repository: tried
+[warn]   http://cs.unh.edu/~cs735/lib/edu/unh/cs/cs735_835/1.2.0/cs735_835-1.2.0-sources.jar
+[debug] 	[NOT REQUIRED] org.testng#testng;6.11!testng.jar(src)
+[debug] 	[NOT REQUIRED] org.yaml#snakeyaml;1.17!snakeyaml.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.6!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.6!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.6!scala-compiler.jar(src)
+[debug] :: resolution report :: resolve 56ms :: artifacts dl 321ms
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[warn] 	::              FAILED DOWNLOADS            ::
+[warn] 	:: ^ see resolution messages for details  ^ ::
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[warn] 	:: edu.unh.cs#cs735_835;1.2.0!cs735_835.jar(src)
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[debug] 	report for 3#3$sources_2.10;0.1-SNAPSHOT compile produced in /home/lydakis-local/IdeaProjects/3/target/resolution-cache/reports/3-3$sources_2.10-compile.xml
+[debug] 	report for 3#3$sources_2.10;0.1-SNAPSHOT runtime produced in /home/lydakis-local/IdeaProjects/3/target/resolution-cache/reports/3-3$sources_2.10-runtime.xml
+[debug] 	report for 3#3$sources_2.10;0.1-SNAPSHOT test produced in /home/lydakis-local/IdeaProjects/3/target/resolution-cache/reports/3-3$sources_2.10-test.xml
+[debug] 	report for 3#3$sources_2.10;0.1-SNAPSHOT provided produced in /home/lydakis-local/IdeaProjects/3/target/resolution-cache/reports/3-3$sources_2.10-provided.xml
+[debug] 	report for 3#3$sources_2.10;0.1-SNAPSHOT optional produced in /home/lydakis-local/IdeaProjects/3/target/resolution-cache/reports/3-3$sources_2.10-optional.xml
+[debug] 	report for 3#3$sources_2.10;0.1-SNAPSHOT compile-internal produced in /home/lydakis-local/IdeaProjects/3/target/resolution-cache/reports/3-3$sources_2.10-compile-internal.xml
+[debug] 	report for 3#3$sources_2.10;0.1-SNAPSHOT runtime-internal produced in /home/lydakis-local/IdeaProjects/3/target/resolution-cache/reports/3-3$sources_2.10-runtime-internal.xml
+[debug] 	report for 3#3$sources_2.10;0.1-SNAPSHOT test-internal produced in /home/lydakis-local/IdeaProjects/3/target/resolution-cache/reports/3-3$sources_2.10-test-internal.xml
+[debug] 	report for 3#3$sources_2.10;0.1-SNAPSHOT plugin produced in /home/lydakis-local/IdeaProjects/3/target/resolution-cache/reports/3-3$sources_2.10-plugin.xml
+[debug] 	report for 3#3$sources_2.10;0.1-SNAPSHOT sources produced in /home/lydakis-local/IdeaProjects/3/target/resolution-cache/reports/3-3$sources_2.10-sources.xml
+[debug] 	report for 3#3$sources_2.10;0.1-SNAPSHOT docs produced in /home/lydakis-local/IdeaProjects/3/target/resolution-cache/reports/3-3$sources_2.10-docs.xml
+[debug] 	report for 3#3$sources_2.10;0.1-SNAPSHOT pom produced in /home/lydakis-local/IdeaProjects/3/target/resolution-cache/reports/3-3$sources_2.10-pom.xml
+[debug] 	report for 3#3$sources_2.10;0.1-SNAPSHOT scala-tool produced in /home/lydakis-local/IdeaProjects/3/target/resolution-cache/reports/3-3$sources_2.10-scala-tool.xml
+[debug] 	resolve done (56ms resolve - 321ms download)

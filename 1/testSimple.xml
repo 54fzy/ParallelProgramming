@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" verbose="10">
+    <test name="Test1">
+        <groups>
+            <run>
+                <include name="d"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="ChannelPerf">
+            </class>
+        </classes>
+    </test>
+</suite>

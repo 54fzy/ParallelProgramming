@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="5"
+		module="5$sources_2.10"
+		revision="0.1-SNAPSHOT"
+		conf="test-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170413094220"/>
+	<dependencies>
+		<module organisation="org.testng" name="testng">
+			<revision name="6.11" status="release" pubdate="20170302231457" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://testng.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3513" time="0" location="/home/lydakis-local/.ivy2/cache/org.testng/testng/ivy-6.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/testng/testng/6.11/testng-6.11.pom"/>
+				<caller organisation="5" name="5$sources_2.10" conf="test, compile, provided, test-internal, runtime, optional" rev="6.11" rev-constraint-default="6.11" rev-constraint-dynamic="6.11" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="testng" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="489117" time="0" location="/home/lydakis-local/.ivy2/cache/org.testng/testng/srcs/testng-6.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/testng/testng/6.11/testng-6.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.yaml" name="snakeyaml">
+			<revision name="1.17" status="release" pubdate="20160219081344" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.snakeyaml.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3956" time="0" location="/home/lydakis-local/.ivy2/cache/org.yaml/snakeyaml/ivy-1.17.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.17/snakeyaml-1.17.pom"/>
+				<caller organisation="5" name="5$sources_2.10" conf="test, compile, provided, test-internal, runtime, optional" rev="1.17" rev-constraint-default="1.17" rev-constraint-dynamic="1.17" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="snakeyaml" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="171312" time="0" location="/home/lydakis-local/.ivy2/cache/org.yaml/snakeyaml/srcs/snakeyaml-1.17-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.17/snakeyaml-1.17-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.beust" name="jcommander">
+			<revision name="1.64" status="release" pubdate="20170303183014" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jcommander.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="0">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2599" time="0" location="/home/lydakis-local/.ivy2/cache/com.beust/jcommander/ivy-1.64.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/beust/jcommander/1.64/jcommander-1.64.pom"/>
+				<caller organisation="5" name="5$sources_2.10" conf="test, compile, provided, test-internal, runtime, optional" rev="1.64" rev-constraint-default="1.64" rev-constraint-dynamic="1.64" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jcommander" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="59747" time="0" location="/home/lydakis-local/.ivy2/cache/com.beust/jcommander/srcs/jcommander-1.64-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/beust/jcommander/1.64/jcommander-1.64-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

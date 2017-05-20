@@ -1,0 +1,178 @@
+[info] Set current project to 4 (in build file:/home/ccluster/cs735/assigns/al1076/SVN/4/)
+[info] Updating {file:/home/ccluster/cs735/assigns/al1076/SVN/4/}root...
+[info] Resolving edu.unh.cs#cs735_835;1.2.0 ...
+[info] Resolving org.testng#testng;6.11 ...
+[info] Resolving com.beust#jcommander;1.64 ...
+[info] Resolving org.yaml#snakeyaml;1.17 ...
+[info] Resolving org.scala-lang#scala-compiler;2.10.6 ...
+[info] Resolving org.scala-lang#scala-library;2.10.6 ...
+[info] Resolving org.scala-lang#scala-reflect;2.10.6 ...
+[info] Resolving org.scala-lang#jline;2.10.6 ...
+[info] Resolving org.fusesource.jansi#jansi;1.4 ...
+[info] Done updating.
+[info] Compiling 11 Java sources to /home/ccluster/cs735/assigns/al1076/SVN/4/target/scala-2.10/classes...
+[warn] /home/ccluster/cs735/assigns/al1076/SVN/4/src/main/java/cs735_835/remoteBank/BufferedAccount.java:7: serializable class cs735_835.remoteBank.BufferedAccount has no definition of serialVersionUID
+[warn] public class BufferedAccount implements java.io.Serializable {
+[warn] /home/ccluster/cs735/assigns/al1076/SVN/4/src/main/java/cs735_835/remoteBank/Operation.java:16: serializable class <anonymous cs735_835.remoteBank.Operation$1> has no definition of serialVersionUID
+[warn]         return new Operation() {
+[warn] /home/ccluster/cs735/assigns/al1076/SVN/4/src/main/java/cs735_835/remoteBank/Operation.java:26: serializable class <anonymous cs735_835.remoteBank.Operation$2> has no definition of serialVersionUID
+[warn]         return new Operation() {
+[warn] /home/ccluster/cs735/assigns/al1076/SVN/4/src/main/java/cs735_835/remoteBank/Operation.java:35: serializable class <anonymous cs735_835.remoteBank.Operation$3> has no definition of serialVersionUID
+[warn]         return new Operation() {
+[warn] /home/ccluster/cs735/assigns/al1076/SVN/4/src/main/java/cs735_835/remoteBank/LocalBank.java:14: serializable class cs735_835.remoteBank.LocalBank.RAccount has no definition of serialVersionUID
+[warn]     public class RAccount extends UnicastRemoteObject implements RemoteAccount{
+[warn] /home/ccluster/cs735/assigns/al1076/SVN/4/src/main/java/cs735_835/remoteBank/LocalBank.java:163:  java.util.Map.Entry
+[warn]   missing type arguments for generic class java.util.Map.Entry<K,V>
+[warn]             for(HashMap.Entry m: accounts.entrySet()){
+[warn] /home/ccluster/cs735/assigns/al1076/SVN/4/src/main/java/cs735_835/remoteBank/LocalBank.java:12: serializable class cs735_835.remoteBank.LocalBank has no definition of serialVersionUID
+[warn] public final class LocalBank extends UnicastRemoteObject implements Bank {
+[info] Compiling 5 Java sources to /home/ccluster/cs735/assigns/al1076/SVN/4/target/scala-2.10/test-classes...
+[info] Running grading.Grade 
+[info] PASSED: test1a
+[info]         balance/deposit/withdrawal on a RemoteAccount
+[info] PASSED: test1b
+[info]         balance/deposit/withdrawal on a BufferedAccount
+[info] PASSED: test1c
+[info]         balance/deposit/withdrawal by direct operations
+[info] PASSED: test2a
+[info]         records from RemoteAccount operations
+[info] PASSED: test2b
+[info]         records from BufferedAccount operations
+[info] PASSED: test2c
+[info]         records from direct operations
+[info] PASSED: test3a
+[info]         two independent RemoteAccount instances
+[info] PASSED: test3b
+[info]         two independent BufferedAccount instances
+[info] PASSED: test3c
+[info]         two independent accounts used directly
+[info] PASSED: test4
+[info]         two RemoteAccount stubs on the same account
+[info] PASSED: test5
+[info]         1000 accounts
+[info] PASSED: test7
+[info]         balance returned at closing time
+[info] PASSED: test8
+[info]         balance is zero after closing
+[info] FAILED: test10
+[info]         new balance acquired when syncing buffered accounts
+[info] java.lang.AssertionError: expected [42] but found [0]
+[info] 	at grading.BankTests.test10(BankTests.java:308)
+[info] 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[info] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[info] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+[info] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+[info] 	at java.lang.Thread.run(Thread.java:745)
+[info] ... Removed 13 stack frames
+[info] FAILED: test6
+[info]         Operation.getBalance() is a singleton
+[info] java.lang.AssertionError: expected [BALANCE] but found [BALANCE]
+[info] 	at grading.BankTests.test6(BankTests.java:264)
+[info] 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[info] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[info] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+[info] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+[info] 	at java.lang.Thread.run(Thread.java:745)
+[info] ... Removed 11 stack frames
+[info] FAILED: test9
+[info]         buffered operations are buffered
+[info] java.lang.AssertionError: expected [180] but found [138]
+[info] 	at grading.BankTests.test9(BankTests.java:295)
+[info] 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[info] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[info] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+[info] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+[info] 	at java.lang.Thread.run(Thread.java:745)
+[info] ... Removed 13 stack frames
+[info] 
+[info] ===============================================
+[info]     grading.BankTests
+[info]     Tests run: 16, Failures: 3, Skips: 0
+[info] ===============================================
+[info] 
+[info] 
+[info] ===============================================
+[info] grading.BankTests
+[info] Total tests run: 16, Failures: 3, Skips: 0
+[info] ===============================================
+[info] 
+[info] PASSED: test1a
+[info]         RemoteAccount operations (sequential)
+[info] PASSED: test1b
+[info]         server-side BufferedAccount operations (sequential)
+[info] PASSED: test1c
+[info]         client-side BufferedAccount operations (sequential)
+[info] PASSED: test1d
+[info]         direct operations (sequential)
+[info] PASSED: test2a
+[info]         RemoteAccount operations (parallel)
+[info] PASSED: test2b
+[info]         server-side BufferedAccount operations (parallel)
+[info] PASSED: test2c
+[info]         client-side BufferedAccount operations (parallel)
+[info] PASSED: test2d
+[info]         direct operations (parallel)
+[info] PASSED: test3a
+[info]         single account, multiple RemoteAccount stubs used in parallel
+[info] PASSED: test3b
+[info]         single account, multiple server-side BufferedAccount used in parallel
+[info] PASSED: test3c
+[info]         single account, multiple client-side BufferedAccount on the same stub used in parallel
+[info] PASSED: test3d
+[info]         single account, multiple direct operations in parallel
+[info] PASSED: test4a
+[info]         randomized RemoteAccount operations (parallel)
+[info] PASSED: test4b
+[info]         randomized server-side BufferedAccount operations (parallel)
+[info] PASSED: test4c
+[info]         randomized client-side BufferedAccount operations (parallel)
+[info] PASSED: test4d
+[info]         randomized direct operations (parallel)
+[info] PASSED: test5a
+[info]         parallel withdrawals using RemoteAccount
+[info] PASSED: test5b
+[info]         parallel withdrawals using BufferedAccount
+[info] PASSED: test5c
+[info]         parallel withdrawals using direct operations
+[info] 
+[info] ===============================================
+[info]     grading.AccountTests
+[info]     Tests run: 19, Failures: 0, Skips: 0
+[info] ===============================================
+[info] 
+[info] 
+[info] ===============================================
+[info] grading.AccountTests
+[info] Total tests run: 19, Failures: 0, Skips: 0
+[info] ===============================================
+[info] 
+[info] PASSED: test1a
+[info] PASSED: test1b
+[info] PASSED: test4
+[info] PASSED: test5
+[info] PASSED: test6
+[info] PASSED: test7
+[info] FAILED: test2
+[info] org.testng.TestException: 
+[info] Method ExceptionTests.test2()[pri:0, instance:grading.ExceptionTests@38082d64] should have thrown an exception of type class cs735_835.remoteBank.BankException
+[info] 	at grading.Grade.main(Grade.java:30)
+[info] ... Removed 19 stack frames
+[info] FAILED: test3
+[info] org.testng.TestException: 
+[info] Method ExceptionTests.test3()[pri:0, instance:grading.ExceptionTests@38082d64] should have thrown an exception of type class cs735_835.remoteBank.BankException
+[info] 	at grading.Grade.main(Grade.java:30)
+[info] ... Removed 19 stack frames
+[info] 
+[info] ===============================================
+[info]     grading.ExceptionTests
+[info]     Tests run: 8, Failures: 2, Skips: 0
+[info] ===============================================
+[info] 
+[info] 
+[info] ===============================================
+[info] grading.ExceptionTests
+[info] Total tests run: 8, Failures: 2, Skips: 0
+[info] ===============================================
+[info] 
+[info] Grade: 71 / 80
+[success] Total time: 14 s, completed Apr 11, 2017 4:09:49 PM

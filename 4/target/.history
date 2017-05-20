@@ -1,0 +1,6 @@
+;reload; */*:dumpStructureTo /tmp/sbt-structure.xml download resolveClassifiers
+; {file:/home/lydakis-local/IdeaProjects/4/}root/products; {file:/home/lydakis-local/IdeaProjects/4/}root/test:products
+;reload; */*:dumpStructureTo /tmp/sbt-structure.xml download resolveClassifiers
+; {file:/home/lydakis-local/IdeaProjects/4/}root/products; {file:/home/lydakis-local/IdeaProjects/4/}root/test:products
+;reload; */*:dumpStructureTo /tmp/sbt-structure1.xml download resolveClassifiers
+;reload; */*:dumpStructureTo /tmp/sbt-structure.xml download resolveClassifiers

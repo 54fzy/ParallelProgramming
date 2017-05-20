@@ -1,0 +1,29 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set(/home/lydakis-local/IdeaProjects/3/src/main/java/cs735_835/noc/ExecSimulator.java, /home/lydakis-local/IdeaProjects/3/src/main/java/cs735_835/noc/Message.java, /home/lydakis-local/IdeaProjects/3/src/main/java/cs735_835/noc/Network.java, /home/lydakis-local/IdeaProjects/3/src/main/java/cs735_835/noc/NaiveExecSimulator.java, /home/lydakis-local/IdeaProjects/3/src/main/java/cs735_835/noc/SimpleClock.java)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/home/lydakis-local/IdeaProjects/3/src/main/java/cs735_835/noc/ExecSimulator.java, /home/lydakis-local/IdeaProjects/3/src/main/java/cs735_835/noc/Message.java, /home/lydakis-local/IdeaProjects/3/src/main/java/cs735_835/noc/Network.java, /home/lydakis-local/IdeaProjects/3/src/main/java/cs735_835/noc/NaiveExecSimulator.java, /home/lydakis-local/IdeaProjects/3/src/main/java/cs735_835/noc/SimpleClock.java)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/lydakis-local/IdeaProjects/3/src/main/java/cs735_835/noc/ExecSimulator.java, /home/lydakis-local/IdeaProjects/3/src/main/java/cs735_835/noc/Message.java, /home/lydakis-local/IdeaProjects/3/src/main/java/cs735_835/noc/Network.java, /home/lydakis-local/IdeaProjects/3/src/main/java/cs735_835/noc/NaiveExecSimulator.java, /home/lydakis-local/IdeaProjects/3/src/main/java/cs735_835/noc/SimpleClock.java)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/lydakis-local/IdeaProjects/3/src/main/java/cs735_835/noc/ExecSimulator.java, /home/lydakis-local/IdeaProjects/3/src/main/java/cs735_835/noc/Message.java, /home/lydakis-local/IdeaProjects/3/src/main/java/cs735_835/noc/Network.java, /home/lydakis-local/IdeaProjects/3/src/main/java/cs735_835/noc/NaiveExecSimulator.java, /home/lydakis-local/IdeaProjects/3/src/main/java/cs735_835/noc/SimpleClock.java)[0m
+[0m[[0minfo[0m] [0mCompiling 5 Java sources to /home/lydakis-local/IdeaProjects/3/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mAttempting to call com.sun.tools.javac.api.JavacTool@6fcaddf7 directly...[0m
+[0m[[0minfo[0m] [0m/home/lydakis-local/IdeaProjects/3/src/main/java/cs735_835/noc/ExecSimulator.java: Some input files use unchecked or unsafe operations.[0m
+[0m[[0minfo[0m] [0m/home/lydakis-local/IdeaProjects/3/src/main/java/cs735_835/noc/ExecSimulator.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0mdebug[0m] [0mJava compilation took 0.747754655 s[0m
+[0m[[0mdebug[0m] [0mJava analysis took 0.01824408 s[0m
+[0m[[0mdebug[0m] [0mJava compile + analysis took 0.769332958 s[0m
+[0m[[0mdebug[0m] [0m[naha] New invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Previously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] All newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m
